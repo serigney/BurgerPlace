@@ -1,10 +1,10 @@
-*{border:1px lightblue solid;
+*{border:1px ;
     margin:1px;}
     
     .main{
       width:70%;
       margin: 0 auto;
-      background: lightblue;
+      background: red;
     }
     
     nav{
@@ -13,11 +13,14 @@
       top: 0;
       position: sticky;
       background-color: white;
+     
     }
     
     .splash{width:100%}
     
     p{font-size: 2vw;}
+
+    .small{font-size: 1vw;}
     
     .products{
       display: flex;
@@ -46,12 +49,54 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      color: white;
+      font-weight: bold;
       
     }
     
     .container {
       position: relative;
       text-align: center;
-      color: black;
+      
       font-size: 6vw;
     }
+
+    button {
+        width: 10%;
+
+    }
+    
+    button {
+        background-color: darkred;
+        color: white;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .bottom{
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        background-color: white;
+       
+      }
+
+      .Mainp {
+text-align: center;
+
+      }
