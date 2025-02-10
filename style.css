@@ -1,1 +1,57 @@
-img{width:300px;}
+*{border:1px lightblue solid;
+    margin:1px;}
+    
+    .main{
+      width:70%;
+      margin: 0 auto;
+      background: lightblue;
+    }
+    
+    nav{
+      display: flex;
+      justify-content: space-around;
+      top: 0;
+      position: sticky;
+      background-color: white;
+    }
+    
+    .splash{width:100%}
+    
+    p{font-size: 2vw;}
+    
+    .products{
+      display: flex;
+      justify-content: space-around;
+    }
+    .product2{
+       display: flex;
+    }
+    
+    .product {
+      width: 30%;
+    }
+    
+    .twotThreeImg{
+        width: 60%;
+    }
+    
+    .productImg {
+      width: 100%;
+    }
+
+    
+    .centered {
+      width: 30%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+    
+    .container {
+      position: relative;
+      text-align: center;
+      color: black;
+      font-size: 6vw;
+    }
