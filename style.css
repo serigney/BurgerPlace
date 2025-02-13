@@ -13,14 +13,22 @@
       top: 0;
       position: sticky;
       background-color: white;
-     
+      font-family: "Lilita One", serif;
+      font-weight: 400;
+      font-style: normal; 
+      
     }
     
     .splash{width:100%}
     
-    p{font-size: 2vw;}
+    p{font-size: 2vw;
+      font-family: "Lilita One", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+    }
 
-    .small{font-size: 1vw;}
+    .small{font-size: 1vw; }
     
     .products{
       display: flex;
@@ -51,6 +59,9 @@
       transform: translate(-50%, -50%);
       color: white;
       font-weight: bold;
+      font-family: "Lilita One", serif;
+      font-weight: 400;
+      font-style: normal;
       
     }
     
@@ -72,6 +83,9 @@
         border: none;
         border-radius: 1px;
         cursor: pointer;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     a:link {
@@ -93,6 +107,10 @@
         justify-content: space-around;
         bottom: 0;
         background-color: white;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
+        
        
       }
 
